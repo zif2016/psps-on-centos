@@ -16,9 +16,16 @@ PhotoScan是一个使用单反相机或无人机拍摄的数字相片来产生3D
 2.1 Photoscan-pro 应用程序linux二进制包
 <ul>axel http://download.agisoft.com/photoscan-pro_1_2_3_amd64.tar.gz</ul>
 2.2 GPU并行计算及OpenCL支持
-<ul>axel http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/cuda-repo-ubuntu1504-7-5-local_7.5-18_amd64.deb</ul>
+<ul>
+<ol>axel http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/cuda-repo-ubuntu1504-7-5-local_7.5-18_amd64.deb
+<ol>ubuntu 15.04 安装方法Installation Instructions:
+<ol>sudo dpkg -i cuda-repo-ubuntu1504-7-5-local_7.5-18_amd64.deb
+<ol>sudo apt-get update
+<ol>sudo apt-get install cuda
+</ul>
 2.3 安装aliyun阿里云存储对象OSS的挂载程序源代码
-<ul>git clone https://git.oschina.net/weiweibaba2007/cloudfs.git
-cd cloudfs/cloudfs_src/
-make pack
+<ul>
+<ol>git clone https://git.oschina.net/weiweibaba2007/cloudfs.git
+<ol>cd cloudfs/cloudfs_src/
+<ol>make pack
 </ul>
