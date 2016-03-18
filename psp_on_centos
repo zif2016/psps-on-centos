@@ -1,0 +1,29 @@
+1.  install  centos linux.
+
+1.1 readme first 
+1.1.1 English https://wiki.centos.org/Manuals/ReleaseNotes/CentOS6.7
+1.1.2 Chinese https://wiki.centos.org/zh/Manuals/ReleaseNotes/CentOS6.7
+1.2 download a centos DVD 
+http://mirrors.aliyun.com/centos/6.7/isos/x86_64/CentOS-6.7-x86_64-bin-DVD1.iso
+
+1.2 install centos on usb disk
+
+1.2.1  make a install usb disk with Win32DiskImager under Windows OS
+https://sourceforge.net/projects/win32diskimager/files/latest/download
+
+1.2.2  make a install usb disk with DD under Linux OS
+dd  if=/image/CentOS-6.7-x86_64-bin-DVD1.iso  of=/dev/usb-media
+
+1.2.3  install centos with  "mini desktop" SET
+
+2. install VGA driver with OpenCL support.
+
+2.1 download nvidia driver  (nvidia VGA card is the first choice with your computer)
+2.2 download nvidia OpenCL SDK
+
+3. install Agisoft Photoscan Pro 
+
+3.1 download photoscan
+3.2 setup photoscan
+3.2.1 Server host
+3.2.2 Node host
